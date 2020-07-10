@@ -1,15 +1,15 @@
 #write your code here
 
-# def countdown(n)
+# def countdown_with_sleep(n)
 #   loop do  
 #     puts "#{n} SECOND(S)!"
 #     break if n <= 1
 #     n -= 1
+#     sleep 5
 # end
 #   "HAPPY NEW YEAR!"
 # end
-
-# countdown
+# countdown_with_sleep(10)
 
 def countdown_with_sleep(number)
   while number >= 5
@@ -19,4 +19,4 @@ def countdown_with_sleep(number)
   end
 end
 
-countdown_with_sleep
+countdown_with_sleep(10)
