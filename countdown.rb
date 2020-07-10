@@ -5,7 +5,6 @@ def countdown
   while q <= 10
     puts "#{q} SECOND(S)!"
     q -= 1
-    
   end
 end
 
