@@ -9,4 +9,4 @@ def countdown(n)
   "HAPPY NEW YEAR!"
 end
 
-countdown(sleep 2.seconds)
+countdown(10)
