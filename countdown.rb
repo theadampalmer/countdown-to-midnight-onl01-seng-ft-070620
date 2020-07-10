@@ -2,6 +2,7 @@
 
 def countdown(n)   
   loop do  
+    sleep 5
     puts "#{n} SECOND(S)!"
     break if n <= 1
     n -= 1
@@ -9,4 +10,4 @@ def countdown(n)
   "HAPPY NEW YEAR!"
 end
 
-countdown(10)
+countdown
